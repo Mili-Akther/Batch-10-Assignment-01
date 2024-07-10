@@ -1,0 +1,145 @@
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .btn-container {
+    text-align: center;
+} */
+.btn{
+padding: 12px 13px 12px 13px;
+border-radius: 4px;
+background: rgb(13, 19, 33);
+position: static;
+width: 129px;
+height: 38px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 18px 0px;
+}
+
+/* btn text design */
+.btn-text{
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 11px;
+font-weight: 600;
+line-height: 13px;
+letter-spacing: 0%;
+text-align: center;
+
+
+}
+#hero{
+    background-image: url("../assets/Hero-bg.png");
+    background-size: cover;
+    background-position: center;  
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    /* Hero-bg */
+    position: absolute;
+    /* width: 2442px; */
+    height: 652px;
+    left: 0;
+    right: 0;
+    top: 145px;
+    bottom: 4462px;
+}
+
+#hero .hero-content{
+    width: 578px;
+    margin: 0 auto;
+}
+
+#hero .hero-content .title{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 27px;
+font-weight: 800;
+line-height: 39px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+#hero .hero-content .description{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 9px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+/* image design */
+#hero .hero-content .group{
+position: absolute;
+width: 120.28px;
+height: 120px;
+left: 257.67%;
+right: -257.67%;
+top: 0%;
+bottom: 0%;
+transform: rotate(180.00deg);
+}
+.group{
+position: absolute;
+width: 240.28px;
+height: 240px;
+left: 257.67%;
+right: -257.67%;
+top: 0%;
+bottom: 0%;
+transform: rotate(180.00deg);
+}
+.frame{
+position: absolute;
+width: 1500px;
+height: 350px;
+left: 221px;
+right: 221px;
+top: 157px;
+bottom: 4506px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+
+}
+.Frame-3{
+position: static;
+width: 1500px;
+height: 350px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+}
