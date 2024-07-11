@@ -443,6 +443,7 @@ background-image: url("/assets/handshake.jpg");
 background-position: center;
 background-size:cover;
 width: 150%;
+margin-left: -18%;
 
 }
 .support-content p {
