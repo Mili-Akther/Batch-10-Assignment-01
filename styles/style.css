@@ -439,7 +439,7 @@ border: 5px solid rgb(76, 0, 255);
 display: flex;
 margin-top: 5%;
 display: flex;
-background-image: url("/assets/handshake.jpg");
+background-image: url("../assets/handshake.jpg");
 background-position: center;
 background-size:cover;
 width: 150%;
