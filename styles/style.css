@@ -177,15 +177,20 @@ text-align: center;
 }
 .target-papa{
 margin: 0 auto;
-max-width: 1140px;
+/* max-width: 1140px; */
+/* padding: 20px 50px ; */
 width:1200px;
+border: 2px solid red;
 }
 .target-content{
-margin: 0 auto;
+/* width: 127%; */
+margin:  auto;
+/* margin-top: -0.1%; */
 gap: 30px;
 display: flex;
 padding: 30px 30px 30px 30px;
-width: 1200px;
+border: 2px solid red;
+
 }
 .target-title{
     color: rgb(13, 19, 33);
@@ -204,10 +209,10 @@ color: #555963;
 }
 .target-html{
 padding: 40px 40px 40px 40px ;
+/* border-radius: 16px solid black; */
 background: rgba(255, 76, 30, 0.05);
 height: 200px;
 border: 30px #FF4C1E0D;
-border-radius: 16px;
 
 }
 .target-css{
