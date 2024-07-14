@@ -177,30 +177,19 @@ text-align: center;
 }
 .target-papa{
 margin: 0 auto;
-/* max-width: 1140px; */
-/* padding: 20px 50px ; */
 width:1200px;
-border: 2px solid red;
 }
 .target-content{
-/* width: 127%; */
-margin:  auto;
-/* margin-top: -0.1%; */
+margin: 0 auto;
 gap: 30px;
 display: flex;
 padding: 30px 30px 30px 30px;
-border: 2px solid red;
-
+width:1200px;
 }
 .target-title{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 24px;
-    font-weight: 800;
-    line-height: 36px;
-    letter-spacing: 0%;
     text-align: left;
-
 }
 
 .target-description{
@@ -209,15 +198,17 @@ color: #555963;
 }
 .target-html{
 padding: 40px 40px 40px 40px ;
-/* border-radius: 16px solid black; */
+/* border-radius: 16px; */
 background: rgba(255, 76, 30, 0.05);
 height: 200px;
 border: 30px #FF4C1E0D;
+font-size: 22px;
+color: #555963;
 
 }
 .target-css{
 padding: 40px 40px 40px 40px ;
-border-radius: 16px;
+/* border-radius: 16px; */
 background: rgba(0, 76, 232, 0.05);
 
 }
@@ -236,32 +227,24 @@ background: rgba(255, 223, 0, 0.05);
 }
 
 .i-need-support{
-border: 5px solid rgb(76, 0, 255);
-display: flex;
-margin-top: 5%;
 display: flex;
 background-image: url("../assets/handshake.jpg");
-background-position: center;
-background-size:cover;
-width: 150%;
-margin-left: -18%;
-
+width:1200px;
+margin: 0 auto;
+height: 500px;
 }
 .support-content p {
-    margin-bottom: 30px;
-    color: white;
-    text-align: center;
-    align-items: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 6%;
+text-align: center;
+font-size: 24px;
+color: #d4d5d8;
+margin: 0 auto;
 }
 .support-content h1{
-    margin-bottom: 30px;
     color: white;
     text-align: center;
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
+    font-size:30px;
    
 }
 .support-content input {
@@ -290,16 +273,14 @@ margin-left: 8%;
 margin-top: 8%;
  margin-bottom: 10%;       
     }
-.footer{
-    padding: 30px 30px;
-}
+
 .myfoot{
 bottom: 0;
-background-color: rgb(224, 217, 217);
+background-color: rgb(243, 241, 241);
 height: 5%;
-position:fixed;
-width:100%;
-left: 0;
+width:1200px;
+margin: 0 auto;
+margin-top: 40px;
 }
 .heading{
     font-size:30px;
